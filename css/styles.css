@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'General Sans';
+    src: url('../font/GeneralSans-Bold.otf') format('opentype'); /* Fallback for .otf */
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('../font/GeneralSans-Semibold.otf') format('opentype'); /* Fallback for .otf */
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('../font/GeneralSans-Medium.otf') format('opentype'); /* Fallback for .otf */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'General Sans';
+    src: url('../font/GeneralSans-Regular.otf') format('opentype'); /* Fallback for .otf */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, a,
+div, section, select, input, textarea, ::placeholder{
+    font-family: 'General Sans';
+    margin: 0!important;
+}
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainSection{
+    max-width: 360px;
+    width: 100%;
+}
+
+.secBanner{
+    background-image: url(../img/img3.webp);
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.secBanner .logo{
+    width: 150px;
+}
+
+.secBanner .secImg{
+    width: 100%;
+}
+
+.secBanner h2{
+    font-weight:700;
+    text-align: center;
+    font-size: 35px;
+}
+
+.secBanner p{
+    font-weight:400;
+    text-align: center;
+}
+
+.content-sec{
+    border:1px solid #5c5c5c7e;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #F6F6F6;
+}
+
+.content-sec .dropdrownSec{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.content-sec h3{
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color:#fff;
+    background-color: #022539;
+}
+
+
+.content-sec .dropdown .accorImg{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.content-sec h4{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content-sec .dropdown-toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color:#000;
+    background-color: #fff;
+    padding:10px 15px;
+    border:0;
+}
+
+.btn:hover{
+    background-color: #87E261;
+    color:#000;
+}
+
+.dropdrownSec .dropdown-menu{
+    width: 100%;
+}
+
+.carType, .catModel{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.submitBtn{
+    background-color: #87E261;
+    color:#000;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    border-radius: 5px;
+    border:0;
+}
+
+.footerSec{
+    background-color: #022539;
+}
+
+.footerSec p {
+    color:#fff;
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 50px 20px;
+}
+
+.footerTop img{
+    width: 130px;
+}
+
+.footerBtm{
+    background-color: #103B53;
+    padding:10px 20px;
+}
+
+.footerBtm p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width:500px){
+
+}
